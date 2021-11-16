@@ -1,0 +1,335 @@
+<!--
+  Acknowledgement: base template by Jacobo Martinez.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <title>Daniel Chiu </title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+  <body>
+    <!-- **** Header Section **** -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    <header>
+      <div class="header">
+    <div class="name">
+      <h1>Daniel Chiu</h1>
+    </div>
+    <div class="topnav" id="myTopnav">
+      <nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul>
+           <li><a href="">Home</a></li>
+           <li><a href="#about">About</a></li> 
+           <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> 
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hello there, I'm a developer who 
+          <span id="text-color">loves</span> to build and design.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Welcome</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title"><span class="italics">About me</span></h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I love helping artists, bloggers, and companies
+                build the website they're looking for.
+              </p>
+              <p class="about-wrapper__info-text">
+                I'm currently based in Canada. My journey into tech started after working as a teacher. 
+                A few friends inspired me to take the plunge. Little by little, 
+                I was hooked and this curiosity opened a door 
+                that could never be shut.
+              </p>
+              <span class="d-flex mt-3">
+                <a href="https://www.linkedin.com/in/danielxchiu/"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  
+                >
+                  View my LinkedIn
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text"><span class="italics">Projects</span></h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Chee Seong Photography</h3>
+                <div>
+                  <p class="mb-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Excepturi neque, ipsa animi maiores repellendus distinctio
+                    aperiam earum dolor voluptatum consequatur blanditiis
+                    inventore debitis fuga numquam voluptate ex architecto
+                    itaque molestiae.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Armelle's Adventures</h3>
+                <div>
+                  <p class="mb-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Excepturi neque, ipsa animi maiores repellendus distinctio
+                    aperiam earum dolor voluptatum consequatur blanditiis
+                    inventore debitis fuga numquam voluptate ex architecto
+                    itaque molestiae.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Yepun San</h3>
+                <div>
+                  <p class="mb-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Excepturi neque, ipsa animi maiores repellendus distinctio
+                    aperiam earum dolor voluptatum consequatur blanditiis
+                    inventore debitis fuga numquam voluptate ex architecto
+                    itaque molestiae.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title"><span class="italics">So what are you waiting for?</span></h2>
+        <h2></h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Let's connect.</p>
+         
+          <div class="container">
+            <form action="contact.php" method="post">
+          
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="visitor-name" placeholder="Your name...">
+          
+              <label for="email">Your E-mail</label>
+              <input type="text" id="email" name="visitor-email" placeholder="Your email...">
+         
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="visitor-message" placeholder="I'd love to hear more..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <h2>Find me here...</h2>
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://twitter.com/danielxchiu" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://codepen.io/danielxchiu" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/danielxchiu/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/danielxchiu" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="mailto:danielxchiu@gmail.com" target="_blank">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <hr />
+          </body>
+</html>
