@@ -39,12 +39,7 @@
   }
 
   @include respond(phone) {
-  border-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
-    border: 2px solid #705E78;
+    border: 2px solid #4d004d;
   }
 
   &::after {
