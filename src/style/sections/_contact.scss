@@ -18,17 +18,17 @@
     -webkit-clip-path: none;
   }
 
-/* Style inputs with type="text", select elements and textareas */
+/* Style inputs */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
-/* Style the submit button with a specific background color etc */
+/* submit button style */
 input[type=submit] {
   background-color: #0f0870;
   color: $light-grey;
@@ -38,7 +38,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button */
 input[type=submit]:hover {
   background-color: #45a049;
 }
