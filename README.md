@@ -1,3 +1,3 @@
 ## Acknowledgment
 
-A big thanks to Jacobo Martinez for providing the original template and source code [Jacobo Martinez](https://github.com/cobidev)
+A big thanks to [Jacobo Martinez](https://github.com/cobidev) for providing the original template and source code. 
